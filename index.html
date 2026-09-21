@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>リダイレクト中...</title>
+    <!-- 0秒後に指定したURLへ自動転送する設定 -->
+    <meta http-equiv="refresh" content="0; url=https://houseinfo.jp/">
+    
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; color: #666; }
+        a { color: #2980b9; }
+    </style>
+</head>
+<body>
+    <p>公式サイトへ移動しています...</p>
+    <p>自動的に移動しない場合は、<a href="https://houseinfo.jp/">こちらをクリック</a>してください。</p>
+
+    <!-- 念のためJavaScriptでも転送を実行（より確実に転送させるため） -->
+    <script>
+        window.location.replace("https://houseinfo.jp/");
+    </script>
+</body>
+</html>
